@@ -1,23 +1,16 @@
 {
-    "name": "richard/wireframe",
-    "description": "test description",
-    "type": "library",
+    "name": "wire/wire",
+    "description": "The Wire Framework.",
+    "keywords": ["framework", "laravel"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Richard Tian",
-            "email": "richardtian@live.com"
-        }
-    ],
-    "minimum-stability": "stable",
+    "type": "library",
     "require": {
         "php": ">=5.6.0"
     },
+
     "autoload": {
         "psr-4": {
-            "Phone\\Brand\\": "src/Phone/Brand",
-            "Phone\\Size\\": "src/Phone/Size",
-            "Phone\\Price\\": "src/Phone/Price"
+            "application\\": "application/"
         }
     }
 }
